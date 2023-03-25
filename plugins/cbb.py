@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Language : <code>Dual</code>\n○ Request New : <a href='https://t.me/newanimerequestbot'>Click here</a>\n○ Channel : @anime_ongoing_23\n○ Chat Group : @zenitsupub</b>",
+            text = f"<b>○ Library : @anime_ongoing_23\n○ Language : <code>Dual</code>\n○ Request New : <a href='https://t.me/newanimerequestbot'>Click here</a>\n○ Chat Group : @zenitsupub</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
